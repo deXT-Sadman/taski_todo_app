@@ -12,6 +12,15 @@ class TaskiApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp();
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: "Taski - To-Do App",
+      initialRoute: "/",
+      routes: {
+        "/": (context) => HomeScreen(),
+        // "/create": (context) => CreateTaskScreen(),
+        // "/completed": (context) => CompletedTasksScreen(),
+      },
+    );
   }
 }
