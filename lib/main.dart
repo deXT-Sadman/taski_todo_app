@@ -18,7 +18,7 @@ class TaskiApp extends StatelessWidget {
       initialRoute: "/",
       routes: {
         "/": (context) => HomeScreen(),
-        // "/create": (context) => CreateTaskScreen(),
+        "/create": (context) => CreateTaskScreen(),
         // "/completed": (context) => CompletedTasksScreen(),
       },
     );
