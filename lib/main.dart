@@ -1,11 +1,14 @@
 import "package:flutter/material.dart";
+import "screens/home_screen.dart";
+import "screens/create_task_screen.dart";
+import "screens/completed_tasks_screen.dart";
 
 void main() {
-  runApp(const MyApp());
+  runApp(const TaskiApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class TaskiApp extends StatelessWidget {
+  const TaskiApp({super.key});
 
   @override
   Widget build(BuildContext context) {
